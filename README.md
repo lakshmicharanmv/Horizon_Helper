@@ -1,3 +1,14 @@
+---
+title: Horizon Helper
+emoji: 🌍
+colorFrom: blue
+colorTo: indigo
+sdk: streamlit
+sdk_version: "1.32.0"
+app_file: app.py
+pinned: false
+---
+
 # Multi-Agent Tourism Planning and Weather Information System
 
 A modern, multi-agent chatbot system that helps users plan trips, check weather, and discover tourist attractions for any city using real-time open APIs. Powered by OpenStreetMap, Open-Meteo, Overpass, and Google Gemini AI.
