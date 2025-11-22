@@ -33,7 +33,7 @@ A modern, multi-agent chatbot system that helps users plan trips, check weather,
 
 ## APIs Used
 
-    # Nominatim (OpenStreetMap)
+    ** Nominatim (OpenStreetMap) **
     Purpose: Geocoding (convert place name to coordinates) and reverse geocoding (get canonical city name).
     Docs: https://nominatim.org/release-docs/develop/api/Search/
     # Open-Meteo
@@ -68,3 +68,4 @@ streamlit run main_app.py
     All location and attraction data is fetched live from open APIs—no hallucinated or AI-invented places.
     If a location is not found, the system politely informs the user.
     The UI supports markdown lists for attractions and a modern chat experience.
+    Reverse geocoding is used to ensure the correct/canonical city name is displayed to the user.
