@@ -45,11 +45,6 @@ A modern, multi-agent chatbot system that helps users plan trips, check weather,
     # Google Gemini AI
     Purpose: Natural language formatting and friendly responses.
 
-## How to Install & Run
-Clone the repository:
-git clone <your-repo-url>
-cd monu_project
-
   # Set up environment variables:
     Create a .env file in the root directory:
     NOMINATIM_URL=https://nominatim.openstreetmap.org/search
