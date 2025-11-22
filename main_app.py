@@ -68,8 +68,8 @@ with st.sidebar:
             border-left: 4px solid #e0e7ff;
             margin-bottom: 1rem;
         '>
-            <h3 style='color: #ffffff; margin-top: 0; font-size: 1.1rem; font-weight: 600;'>Luxury Travel Assistant</h3>
-            <p style='color: #e0e7ff; margin: 0.5rem 0; font-size: 0.95rem;'>Your premium companion for extraordinary journeys</p>
+            <h3 style='color: #0f172a; margin-top: 0; font-size: 1.1rem; font-weight: 700;'>Luxury Travel Assistant</h3>
+            <p style='color: #1e293b; margin: 0.5rem 0; font-size: 0.95rem; font-weight: 500;'>Your premium companion for extraordinary journeys</p>
         </div>
         
         <div style='
@@ -79,23 +79,23 @@ with st.sidebar:
             margin-bottom: 1.5rem;
             border: 1px solid rgba(255, 255, 255, 0.2);
         '>
-            <h4 style='color: #ffffff; font-size: 1rem; margin-top: 0; font-weight: 600;'>Premium Features</h4>
+            <h4 style='color: #0f172a; font-size: 1rem; margin-top: 0; font-weight: 700;'>Premium Features</h4>
             <div style='display: flex; flex-direction: column; gap: 0.8rem;'>
                 <div style='padding: 0.8rem; background: rgba(255, 255, 255, 0.15); border-radius: 8px; border-left: 3px solid #ffffff;'>
-                    <span style='color: #ffffff; font-weight: 600;'>Real-time Insights</span>
-                    <p style='color: #e0e7ff; font-size: 0.85rem; margin: 0.3rem 0 0 0;'>Live weather & destination data</p>
+                    <span style='color: #0f172a; font-weight: 700;'>Real-time Insights</span>
+                    <p style='color: #334155; font-size: 0.85rem; margin: 0.3rem 0 0 0; font-weight: 500;'>Live weather & destination data</p>
                 </div>
                 <div style='padding: 0.8rem; background: rgba(255, 255, 255, 0.15); border-radius: 8px; border-left: 3px solid #e0e7ff;'>
-                    <span style='color: #ffffff; font-weight: 600;'>Luxury Destination Guides</span>
-                    <p style='color: #e0e7ff; font-size: 0.85rem; margin: 0.3rem 0 0 0;'>Curated premium locations</p>
+                    <span style='color: #0f172a; font-weight: 700;'>Luxury Destination Guides</span>
+                    <p style='color: #334155; font-size: 0.85rem; margin: 0.3rem 0 0 0; font-weight: 500;'>Curated premium locations</p>
                 </div>
                 <div style='padding: 0.8rem; background: rgba(255, 255, 255, 0.15); border-radius: 8px; border-left: 3px solid #c7d2fe;'>
-                    <span style='color: #ffffff; font-weight: 600;'>Premium Travel Planning</span>
-                    <p style='color: #e0e7ff; font-size: 0.85rem; margin: 0.3rem 0 0 0;'>Personalized itineraries</p>
+                    <span style='color: #0f172a; font-weight: 700;'>Premium Travel Planning</span>
+                    <p style='color: #334155; font-size: 0.85rem; margin: 0.3rem 0 0 0; font-weight: 500;'>Personalized itineraries</p>
                 </div>
                 <div style='padding: 0.8rem; background: rgba(255, 255, 255, 0.15); border-radius: 8px; border-left: 3px solid #a5b4fc;'>
-                    <span style='color: #ffffff; font-weight: 600;'>Exclusive Recommendations</span>
-                    <p style='color: #e0e7ff; font-size: 0.85rem; margin: 0.3rem 0 0 0;'>VIP experiences & deals</p>
+                    <span style='color: #0f172a; font-weight: 700;'>Exclusive Recommendations</span>
+                    <p style='color: #334155; font-size: 0.85rem; margin: 0.3rem 0 0 0; font-weight: 500;'>VIP experiences & deals</p>
                 </div>
             </div>
         </div>
@@ -106,14 +106,14 @@ with st.sidebar:
             border-radius: 12px;
             border: 1px solid rgba(255, 255, 255, 0.25);
         '>
-            <h4 style='color: #ffffff; font-size: 1rem; margin-top: 0; font-weight: 600;'>Quick Examples</h4>
+            <h4 style='color: #0f172a; font-size: 1rem; margin-top: 0; font-weight: 700;'>Quick Examples</h4>
             <div style='display: flex; flex-direction: column; gap: 0.7rem;'>
                 <div style='
                     background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(224, 231, 255, 0.2) 100%);
-                    color: white;
+                    color: #0f172a;
                     padding: 0.8rem;
                     border-radius: 8px;
-                    font-weight: 600;
+                    font-weight: 700;
                     font-size: 0.9rem;
                     text-align: left;
                     cursor: pointer;
@@ -125,10 +125,10 @@ with st.sidebar:
                 </div>
                 <div style='
                     background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(224, 231, 255, 0.2) 100%);
-                    color: white;
+                    color: #0f172a;
                     padding: 0.8rem;
                     border-radius: 8px;
-                    font-weight: 600;
+                    font-weight: 700;
                     font-size: 0.9rem;
                     text-align: left;
                     cursor: pointer;
@@ -140,10 +140,10 @@ with st.sidebar:
                 </div>
                 <div style='
                     background: linear-gradient(135deg, rgba(255, 255, 255, 0.25) 0%, rgba(224, 231, 255, 0.2) 100%);
-                    color: white;
+                    color: #0f172a;
                     padding: 0.8rem;
                     border-radius: 8px;
-                    font-weight: 600;
+                    font-weight: 700;
                     font-size: 0.9rem;
                     text-align: left;
                     cursor: pointer;
@@ -224,7 +224,7 @@ st.markdown(
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-# Purple and blue luxury CSS with animations
+# Purple and blue luxury CSS with animations and darker text
 st.markdown("""
 <style>
 :root {
@@ -260,7 +260,6 @@ st.markdown("""
     50% { transform: scaleX(1.05); }
 }
 
-
 @keyframes containerSlide {
     from {
         opacity: 0;
@@ -287,8 +286,7 @@ st.markdown("""
     box-shadow: var(--shadow-purple);
     position: relative;
     overflow: hidden;
-    font-weight: 500;
-    color: #1e293b; /* Darker text color for better readability */
+    font-weight: 600;
 }
 
 .chat-bubble::before {
@@ -331,7 +329,7 @@ st.markdown("""
 
 .chat-bubble.user {
     background: var(--purple-dark);
-    color: #e0e7ff; /* Lighter text for dark background */
+    color: #f8fafc !important;
     margin-left: auto;
     margin-right: 0;
     text-align: right;
@@ -342,8 +340,8 @@ st.markdown("""
 }
 
 .chat-bubble.assistant {
-    background: var(--purple-primary);
-    color: #ffffff; /* White text for better contrast */
+    background: var(--purple-secondary);
+    color: #0f172a !important;
     margin-right: auto;
     margin-left: 0;
     text-align: left;
@@ -373,8 +371,8 @@ st.markdown("""
     padding: 1.2rem 1.5rem !important;
     font-size: 1.05rem !important;
     background: transparent !important;
-    font-weight: 500;
-    color: #1e293b !important; /* Darker text color */
+    font-weight: 600;
+    color: #0f172a !important;
     transition: all 0.3s ease !important;
 }
 
@@ -385,8 +383,8 @@ st.markdown("""
 }
 
 .stTextInput>div>div>input::placeholder {
-    color: #64748b !important; /* Darker placeholder text */
-    font-weight: 400;
+    color: #475569 !important;
+    font-weight: 500;
 }
 
 /* Sidebar styling to match main background */
@@ -460,19 +458,47 @@ st.markdown("""
 
 /* Make all text darker for better readability */
 body {
-    color: #1e293b !important;
+    color: #0f172a !important;
+    font-weight: 500;
 }
 
 .stMarkdown {
-    color: #1e293b !important;
+    color: #0f172a !important;
+    font-weight: 500;
 }
 
 .stMarkdown p {
-    color: #1e293b !important;
+    color: #0f172a !important;
+    font-weight: 500;
 }
 
 .stMarkdown li {
-    color: #1e293b !important;
+    color: #0f172a !important;
+    font-weight: 500;
+}
+
+.stMarkdown h1, .stMarkdown h2, .stMarkdown h3, .stMarkdown h4, .stMarkdown h5, .stMarkdown h6 {
+    color: #0f172a !important;
+    font-weight: 700;
+}
+
+/* Ensure all text in the app has good contrast */
+[data-testid="stMarkdownContainer"] {
+    color: #0f172a !important;
+}
+
+.st-bq {
+    color: #0f172a !important;
+}
+
+.st-emotion-cache-1q7spjk {
+    color: #0f172a !important;
+}
+
+/* Chat container specific styling */
+.chat-container {
+    color: #0f172a !important;
+    font-weight: 500;
 }
 </style>
 """, unsafe_allow_html=True)
